@@ -1,0 +1,63 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+  // color: $brand-color;
+  text-decoration: none;
+
+  @include on-event {
+    color: #0000;
+    text-decoration: none;
+  }
+}
+
+
+.boxcar {
+  border-radius:10px;
+  background: #ffffff00;
+  margin-left: 1px;
+  &:hover {
+  background: #ffffff;  
+
+}}
+
+.collection{
+  background-color: rgb(253, 250, 250);
+}
+.hover-text{
+  color: #000000;
+  &:hover{
+    color: rgb(255, 136, 0);
+  }
+}
+
+
+.footerp{
+  font-size: 13px;
+}
+.footerelm{
+  font-size: 14px;
+}

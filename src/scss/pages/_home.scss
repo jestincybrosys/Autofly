@@ -1,0 +1,86 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+
+// banner section
+
+%style-shared {
+  color: #ffff;
+}
+
+.banner{
+    
+    background-image:linear-gradient(rgba(36, 19, 19, 0.564), rgba(86, 80, 80, 0.642)), url("../src/img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+width: 100%;
+height: 700px;
+}
+.bannertext{
+    @extend %style-shared;
+    font-weight: 800;
+    font-size: 52px;
+}
+.bannerbutton{
+    @extend %style-shared;
+    font-size: 18px;
+    color: #e62121 ;
+}
+.bannercon{
+    @extend %style-shared;
+}
+.row{
+    height: 100%;
+}
+.form-control,.form-floating{
+    border: 0px;
+    
+}
+
+
+.topdiv{
+    background-color: #ffff;
+    position: relative;
+    top: -35px;
+    width: 100%;
+    height: 70px;
+}
+
+.card{
+    border: none;
+}
+.div {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(32, 32, 32);
+    
+
+  }
+.imgg{
+    width: 5em;
+}
+.div2{
+   
+
+}
+.iconn{
+    font-size: 12px;
+
+}
+.iconmain{
+    justify-content: space-between;
+    color: #303030;
+
+
+}
+.font-color{
+    color: #f34444;
+    font-size: 20px;
+}
+.boaled{
+    font-weight: 900;
+}
+.line{
+    border-right: solid #303030;
+}

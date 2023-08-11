@@ -1,0 +1,39 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+.button1{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: rgb(255, 91, 41);
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+
+    &:hover, &:focus, &:focus-visible{
+      background-color: rgb(241, 70, 22);
+    }
+  }
+
+.button2 {
+        display: inline-block;
+        padding: 10px 40px;
+        background-color: rgba(220, 169, 74, 0.616);
+        color: white;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+     
+    
+     &:hover {
+        background-color: darkorange;
+      } 
+    }
+
+.btnn{
+  border: 0px;
+  color: rgb(252,177,1);
+  background-color: rgba(0, 0, 0, 0);
+}
