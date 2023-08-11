@@ -22,11 +22,7 @@ height: 700px;
     font-weight: 800;
     font-size: 52px;
 }
-.bannerbutton{
-    @extend %style-shared;
-    font-size: 18px;
-    color: #e62121 ;
-}
+
 .bannercon{
     @extend %style-shared;
 }
