@@ -5,14 +5,15 @@
     display: inline-block;
     padding: 8px 20px;
     background-color: rgb(255, 91, 41);
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     font-size: 16px;
     cursor: pointer;
     text-decoration: none;
 
     &:hover, &:focus, &:focus-visible{
-      background-color: rgb(241, 70, 22);
+      background-color: rgb(255, 154, 60);
+      color: #ffffff;
     }
   }
 
@@ -28,7 +29,7 @@
      
     
      &:hover {
-        background-color: darkorange;
+        background-color: rgb(255, 176, 79);
       } 
     }
 
@@ -36,6 +37,12 @@
   border: 0px;
   color: rgb(252,177,1);
   background-color: rgba(0, 0, 0, 0);
+
+  @media (min-width: 768px) {
+    /* Media query for mobile and tablet screens */
+    pointer-events: none;
+    cursor: default;
+  }
 }
 .bannerbutton{
   font-size: 18px;

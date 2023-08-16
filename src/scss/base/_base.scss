@@ -27,11 +27,6 @@ html {
 a {
   // color: $brand-color;
   text-decoration: none;
-
-  @include on-event {
-    color: #0000;
-    text-decoration: none;
-  }
 }
 
 
@@ -84,4 +79,12 @@ a {
   width: 150px;
   padding-top: 8px;
   display: flex;
+}
+
+.justifycontentbetween{
+  justify-content: space-between;
+  @media (max-width: 768px)  {
+    justify-content: center;
+    
+  }
 }
