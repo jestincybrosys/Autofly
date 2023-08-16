@@ -57,9 +57,19 @@ a {
   font-size: 14px;
 }
 .border-line{
-  border-left: 1px solid;
-    padding-left: 35px;
-    padding-right: 40px;
+  border-right: 1px solid;
+  width: 20%;
+  padding-left: 30px;
+  
+
+    @media (max-width: 768px)  {
+      border-right: none;
+      width: 100%;
+    }
+  &:last-child{
+      border-right: none;
+      
+    }
 
 }
 .navitem{
@@ -74,7 +84,7 @@ a {
   border: none;
   display: block;
   outline: none;
-  color: #333;
+  color: #f54500;
   font-size: 16px;
   width: 150px;
   padding-top: 8px;
